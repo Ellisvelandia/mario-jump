@@ -20,7 +20,7 @@ const loop = setInterval(() => {
     pipe.style.left = `${pipePosition}px`;
 
     mario.style.animation = "none";
-    mario.style.left = `${marioPosition}px`;
+    mario.style.left = `${pipePosition}px`;
   }
 }, 10);
 

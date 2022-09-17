@@ -10,17 +10,8 @@ const jump = () => {
 };
 const loop = setInterval(() => {
   const pipePosition = pipe.offsetLeft;
-  const marioPosition = +window
-    .getComputedStyle(mario)
-    .bottom.replace("px", "");
-
-  console.log(marioPosition);
-  if (pipePosition <= 12 && pipePosition > 0 && marioPosition < 80) {
+  if (pipePosition <- 120) {
     pipe.style.animation = "none";
-    pipe.style.left = `${pipePosition}px`;
-
-    mario.style.animation = "none";
-    mario.style.left = `${marioPosition}px`;
   }
 }, 10);
 
