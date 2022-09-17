@@ -1,0 +1,1 @@
+document.addEventListenerR('keydown', jump)

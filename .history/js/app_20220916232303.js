@@ -5,7 +5,8 @@ const jump = () => {
 
   setTimeout(() => {
     mario.classList.remove("jump");
-  }, 500);
+  
+  },500)
 };
 
 document.addEventListener("keydown", jump);
