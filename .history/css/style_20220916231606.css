@@ -25,9 +25,6 @@
   width: 150px;
   position: absolute;
   bottom: 0px;
-}
-
-.jump {
   animation: jump 500ms ease-out;
 }
 

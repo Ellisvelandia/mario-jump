@@ -25,11 +25,10 @@
   width: 150px;
   position: absolute;
   bottom: 0px;
-}
-
-.jump {
   animation: jump 500ms ease-out;
 }
+
+.
 
 @keyframes pipe-animation {
   from {
